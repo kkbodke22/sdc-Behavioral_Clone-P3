@@ -26,6 +26,10 @@ model.h5:
     
 README.md
 
+Submission includes functional code Using the Udacity provided simulator and drive.py file, 
+the car can be driven autonomously around the track by executing the below command:
+
+		python drive.py model.h5
 
 Model Architecture:
 
@@ -42,5 +46,7 @@ Then adam optimizer, so the learning rate was not tuned manually
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting 
 The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+
+Since the current model is working fine I do not plan to use dropout layers, unless absolutely necessary.
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
